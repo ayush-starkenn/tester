@@ -9,6 +9,7 @@ app.use(express.json());
 app.use(cors({ bodyPar, extended: true }));
 app.use("/", Router);
 
+console.log("test");
 app.listen(3001, () => {
   console.log("app is listening on port : 3001 ");
 });
